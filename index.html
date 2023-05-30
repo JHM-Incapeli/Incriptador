@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <meta charset="UTF-8">
+        <title>Incriptador de texto | ONE oracle next education de JHM-Incapeli</title>
+        <link rel="stylesheet" href="style-inciptador.css">
+    </head>
+    <body>
+        
+        <section class="content">
+            <article class ="Contenedor-text">
+                <p class="my-name">JHM-Incapeli (Javier Andres Herrera Manjarrez)</p>
+                <article>
+                    <textarea id="input-text" placeholder="Ingrese el texto solo letras minuscalas y sin acento"></textarea>
+                </article>
+                <h1 class="alerta" id="alerta">! solo letras minuscalas y sin acento</h1>
+                <article class="content-btn-encriptar-desencriptar">
+                    <button type="submit" class="btn-encriptar" id="encriptar">Encriptar</button>
+                   
+                    <button type="submit"  class="btn-desencriptar" id="desencriptar">Desencriptar</button>
+                </article>
+            </article>
+
+            <article calss="contenedor-encriptado">
+                <textarea id="output-text" placeholder="Datos encriptados" readonly="readonly"></textarea>
+                <button type="submit" class="btn-copy" id="copy-text">copy</button>
+            </article>
+        </section>
+        <footer>
+
+        </footer>
+        <script src="logica.js"></script>
+    </body>
+</html>
